@@ -1,0 +1,13 @@
+//子模块一  加法模块
+
+module      ADD(
+     input     wire     [8:0]ADD_in0 ,
+     input     wire     [8:0]ADD_in1 ,
+     output    wire     [9:0]ADD_out
+
+
+);
+
+assogn     ADD_out = ADD_in0 +ADD_in1 ;
+
+endmodule

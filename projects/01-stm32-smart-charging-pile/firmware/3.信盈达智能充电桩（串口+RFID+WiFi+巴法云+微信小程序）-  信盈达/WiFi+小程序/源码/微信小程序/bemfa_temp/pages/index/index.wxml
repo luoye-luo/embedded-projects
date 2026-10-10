@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view >
+
+  <view class="van-hairline--surround title">信盈达充电桩</view>
+
+
+<!--设备状态-->
+<van-cell-group>
+  <van-cell title="设备状态" value="{{device_status}}" />
+</van-cell-group>
+
+
+<!--时间显示-->
+<view class="dataTime">上传时间：{{dataTime}}</view>
+
+<!--温湿度图片显示-->
+<view  class="pic">
+<van-row>
+  <van-col span="12" ><van-icon  size="60px" name="{{chargeicon}}" /></van-col>
+  <van-col span="12" ><van-icon  size="60px" name="/utils/img/money.png" /></van-col>
+</van-row>
+</view>
+
+
+<view  class="state">
+  <van-row style="text-align:center;">
+    <van-col span="12">充电枪状态：{{chargeshow}} </van-col>
+    <van-col span="12">余额：{{money}}</van-col>
+  </van-row>
+</view>
+<!--温湿度图片显示
+<view  class="pic">
+<van-row>
+  <van-col span="12" ><van-icon  size="60px" name="/utils/img/power.png" /></van-col>
+  <van-col span="12"><van-icon  size="60px" name="/utils/img/ENERGY.PNG" /></van-col>
+</van-row>
+</view>
+
+<view  class="state">
+  <van-row style="text-align:center;">
+    <van-col span="12">功率：{{power}}Kw </van-col>
+    <van-col span="12">消耗电量：{{energy}} °</van-col>
+  </van-row>
+</view>
+
+<view  class="pic">
+<van-row>
+  <van-col span="12" ><van-icon  size="60px" name="/utils/img/V.png" /></van-col>
+  <van-col span="12"><van-icon  size="60px" name="/utils/img/A.PNG" /></van-col>
+</van-row>
+</view>
+
+<view  class="state">
+  <van-row style="text-align:center;">
+    <van-col span="12">电压：{{voltage}} V</van-col>
+    <van-col span="12">电流：{{current}} A</van-col>
+  </van-row>
+</view>
+
+-->
+
+
+
+
+</view>

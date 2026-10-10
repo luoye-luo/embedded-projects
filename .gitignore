@@ -1,0 +1,38 @@
+# Keil
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.uvguix.*
+*.o
+*.crf
+*.d
+*.axf
+*.hex
+*.map
+*.lst
+*.lnp
+*.sct
+*.dep
+
+# Quartus
+**/db/
+**/incremental_db/
+**/output_files/
+**/simulation/
+**/greybox_tmp/
+*.qws
+*.sof
+*.jic
+*.rpt
+*.smsg
+*.summary
+
+# Python
+__pycache__/
+*.py[cod]
+.idea/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
